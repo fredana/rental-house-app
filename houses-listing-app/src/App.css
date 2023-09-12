@@ -10,12 +10,8 @@
   height: 8vmin;
   width: 12vmin;
   pointer-events: none;
-  
-  /* position: fixed; */
-  /* margin-top: 20px; */
-  /* margin-bottom: 20px; */
 }
-.App-header img{
+.App-header .App-logo{
   text-align: left;
   
 }
@@ -95,6 +91,7 @@ img{
   width: 300px;
   height: 300px;
   padding: 10px;
+  border-radius: 10px;
 }
 #add{
   color: rgb(5, 93, 64);
