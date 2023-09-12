@@ -13,8 +13,8 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-        <img src={logo1} className="App-logo" alt="logo1" />
-          <h1>Houses Listing App</h1>
+        
+          <h1><img src={logo1} className="App-logo" alt="logo1" />Houses Listing App</h1>
           <ul>
             <li className='navbar'><Link to="/">Home</Link></li>
             <li className='navbar'><Link to="/user-added-houses">Add House</Link></li>
