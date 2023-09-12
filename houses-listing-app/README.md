@@ -9,7 +9,8 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3002) to view it in your browser.
+THE FETCH URL IS SETUP TO WORK ON PORT: 3002. Make sure to "npm start" on PORT 3002.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -74,13 +75,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 This app is about advertising / renting / buying a house. 
 
 
-NAME
+NAME: 
 House/Apartment Listing App
 
-DESCRIPTION
+DESCRIPTION: 
 This app can be used to advertise/rent/buy a house or an apartment with information about the location, price, and pictures.
 
-INSTALLATION INSTRUCTION
+INSTALLATION INSTRUCTION: 
 Global setup:
   Download and install Git
   git config --global user.email EMAIL_ADDRESS
@@ -105,12 +106,13 @@ You may also want to track the master branch for easy pull/push
   git config branch.master.remote origin
 
 HOW TO USE THE APP
-This is an app for booking a room in a Hotel / Guesthouse
+This is an app for listing a house for rent or sell
 
 CONTRIBUTOR'S GUIDE
 
 Make changes locally
 Fork the repository.
+
 Using GitHub Desktop:
 
 Getting started with GitHub Desktop will guide you through setting up Desktop.
