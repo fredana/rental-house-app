@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './logo.svg';
+import logo1 from './images/logo1.png';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Import Router and related components
 import HouseList from './HouseList';
 import Home from './Home';
@@ -13,9 +13,8 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
+        <img src={logo1} className="App-logo" alt="logo1" />
           <h1>Houses Listing App</h1>
-
-          <img src={logo} className="App-logo" alt="logo" />
           <ul>
             <li className='navbar'><Link to="/">Home</Link></li>
             <li className='navbar'><Link to="/user-added-houses">Add House</Link></li>

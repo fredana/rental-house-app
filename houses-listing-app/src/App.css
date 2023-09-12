@@ -6,9 +6,11 @@
   height: 700px;
 }
 
-.App-logo {
-  height: 4vmin;
+.App .App-logo {
+  height: 5vmin;
+  width: 12vmin;
   pointer-events: none;
+  text-align: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
