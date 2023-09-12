@@ -3,10 +3,10 @@ This app is about advertising / renting / buying a house.
 
 
 NAME
-Listing an house / apartment for rent/sell
+House/Apartment Listing App
 
 DESCRIPTION
-This app can be used to book a room in a hotel or guesthouse with information about the guest's details and checking / checkout dates; also send them a reservation confirmation.
+This app can be used to advertise/rent/buy a house or an apartment with information about the location, price, and pictures.
 
 INSTALLATION INSTRUCTION
 Global setup:
