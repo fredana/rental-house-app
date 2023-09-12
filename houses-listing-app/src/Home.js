@@ -22,7 +22,7 @@ const Home = () => {
       <Link to="/add-house">Add a New House</Link><br></br><br></br> */}
       
       <input type="text" value={userInput} onChange={handleInputChange} placeholder='Your Name' />
-      <button onClick={handleButtonClick1}>CLICK ME</button>
+      <button id='submit' onClick={handleButtonClick1}>SUBMIT</button>
       
       {/* Display the result */}
       {result && <p>{result}</p>}

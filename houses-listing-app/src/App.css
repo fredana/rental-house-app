@@ -74,7 +74,7 @@ h2{
 h3, p{
   font-size: x-large;
   font-weight: bold;
-  
+
 }
 
 .add-listing-form{
@@ -95,7 +95,7 @@ img{
   padding: 10px;
   border-radius: 60px 65px 25px 90px;
 }
-#add{
+#add, #submit{
   color: rgb(5, 93, 64);
   font-family: cursive;
   font-size: large;
