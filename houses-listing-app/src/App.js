@@ -1,28 +1,3 @@
-// import React from 'react';
-// import './App.css';
-// import HouseList from './HouseList';
-// import AddListing from './AddListing';
-// import UserAddedHouses from './UserAddedHouses';
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App">
-//       <header className="App-header">
-//         <h1>Houses Listing App</h1>
-//       </header>
-//       {/* <AddListing /> */}
-//       <UserAddedHouses />
-//       {/* <HouseList /> */}
-//     </div>
-//     </Router>
-    
-//   );
-// }
-
-// export default App;
-
-
 import React from 'react';
 import './App.css';
 import logo from './logo.svg';
