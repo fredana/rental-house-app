@@ -14,7 +14,12 @@ function App() {
       <div className="App">
         <header className="App-header">
         
-          <h1><img src={logo1} className="App-logo" alt="logo1" />Houses Listing App</h1>
+          <h1><a
+                className="App-link"
+                href="https://kololi.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><img src={logo1} className="App-logo" alt="logo1" /></a>Houses Listing App</h1>
           <ul>
             <li className='navbar'><Link to="/">Home</Link></li>
             <li className='navbar'><Link to="/user-added-houses">Add House</Link></li>
@@ -25,7 +30,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View Houses
+                Check Availability
               </a>
         </li>
             
