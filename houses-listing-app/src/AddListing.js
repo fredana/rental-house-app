@@ -17,7 +17,7 @@ const AddListing = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('http://localhost:3000/houses', {
+    fetch('http://localhost:3002/houses', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
