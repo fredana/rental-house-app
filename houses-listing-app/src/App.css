@@ -3,14 +3,20 @@
   /* background-image: url('./images/bg.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  /* height: 700px; */
 }
 
 .App-logo {
   height: 5vmin;
   width: 12vmin;
   pointer-events: none;
+  position: fixed;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.App-header img{
   text-align: left;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
