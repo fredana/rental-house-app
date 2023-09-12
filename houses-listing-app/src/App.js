@@ -4,9 +4,9 @@ import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Import Router and related components
 import HouseList from './HouseList';
 import Home from './Home';
-import AddListing from './AddListing';
+// import AddListing from './AddListing';
 import UserAddedHouses from './UserAddedHouses';
-import House from './House';
+// import House from './House';
 
 function App() {
   return (
