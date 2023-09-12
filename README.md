@@ -1,4 +1,4 @@
-# rental-house-app
+# Rental-House-App
 This app is about advertising / renting / buying a house. 
 
 
