@@ -18,8 +18,8 @@ const Home = () => {
   return (
     <div>
       <h1>Welcome To The House Rental App</h1>
-      {/* <Link to="/houses">View Houses for Rent</Link><br></br><br></br>
-      <Link to="/add-house">Add a New House</Link><br></br><br></br> */}
+      <Link to="/houses">View Houses for Rent</Link><br></br><br></br>
+      <Link to="/add-house">Add a New House</Link><br></br><br></br>
       
       <input type="text" value={userInput} onChange={handleInputChange} placeholder='Your Name' />
       <button onClick={handleButtonClick1}>CLICK ME</button>
