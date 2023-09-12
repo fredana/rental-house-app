@@ -1,9 +1,13 @@
 .App {
   text-align: center;
+  /* background-image: url('./images/bg.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 4vmin;
   pointer-events: none;
 }
 
@@ -14,18 +18,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #f2f4f8; */
+  background-image: url('images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  /* justify-content: center; */
+  font-size: 40px;
+  font-weight: bold;
+  font-family: monospace;
+  color: rgb(243, 243, 236);
+  /* margin-top: 0; */
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +41,80 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  background-color: #f5f9f9e0;
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  flex-direction: column;
+  margin: 0px 15px 15px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+
+h1{
+  background-color: rgba(68, 191, 218, 0.775);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h2{
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.add-listing-form{
+  background-color: rgba(240, 255, 255, 0.348);
+}
+.image-gallery{
+  width: 1200px;
+  height: 300px;
+  /* display: inline-flexbox; */
+  /* padding: 0px 50px 50px 100px; */
+  align-items: center;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin-left: 200px;
+}
+img{
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+#add{
+  color: rgb(5, 93, 64);
+  font-family: cursive;
+  font-size: large;
+  background-color: rgba(44, 231, 44, 0.437);
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#viewList{
+  font-family: fantasy;
+  font-size: xx-large;
+  background-color: rgb(149, 210, 240);
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgb(15, 138, 245);
+}
+input, #choseFile{
+  height: 50px;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.user-listings{
+  background-color: aliceblue;
+}
+.user-listing.zoomed img {
+  transform: scale(2.2); /* You can adjust the scale factor as desired for the zoom effect */
+  transition: transform 0.5s ease-in-out; /* Add a smooth transition effect */
+  cursor: pointer; /* Change cursor to indicate clickability */
 }
