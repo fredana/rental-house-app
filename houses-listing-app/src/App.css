@@ -71,6 +71,12 @@ h2{
   text-transform: uppercase;
 }
 
+h3, p{
+  font-size: x-large;
+  font-weight: bold;
+  
+}
+
 .add-listing-form{
   background-color: rgba(240, 255, 255, 0.348);
 }
@@ -110,6 +116,13 @@ input, #choseFile{
   height: 50px;
   border-radius: 10px;
   margin: 25px;
+}
+.p{
+  width: 600px;
+  background-color: antiquewhite;
+  text-align: center;
+  margin-left: 30%;
+  padding: 5%;
 }
 
 .user-listings{
