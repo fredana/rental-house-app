@@ -56,7 +56,12 @@ const UserAddedHouses = () => {
           onChange={(e) => setLocation(e.target.value.toUpperCase())}
         />
         
-           <textarea type="text" placeholder='House Descrition' value={description} onChange={(e) => setDescription(e.target.value.toUpperCase())} />
+        <input 
+           type="text" 
+           placeholder='House Descrition' 
+           value={description} 
+           onChange={(e) => setDescription(e.target.value.toUpperCase())} 
+        />
         
         <input
           type="text"
