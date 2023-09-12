@@ -3,7 +3,6 @@
   /* background-image: url('./images/bg.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 700px; */
 }
 
 .App-logo {
@@ -23,7 +22,6 @@
 }
 
 .App-header {
-  /* background-color: #f2f4f8; */
   background-image: url('images/bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
