@@ -106,7 +106,7 @@ img{
   border-radius: 10px;
   color: rgb(15, 138, 245);
 }
-input, #choseFile{
+input, #choseFile, textarea{
   height: 50px;
   border-radius: 10px;
   margin: 25px;

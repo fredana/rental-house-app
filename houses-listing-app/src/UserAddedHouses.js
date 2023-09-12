@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const UserAddedHouses = () => {
   const [userListings, setUserListings] = useState([]);
   const [location, setLocation] = useState('');
+  const [description, setDescription] = useState('');
   const [price, setPrice] = useState('');
   const [images, setImages] = useState([]); // Store an array of selected image files
   const [showUserListings, setShowUserListings] = useState(false);
@@ -11,6 +12,7 @@ const UserAddedHouses = () => {
     if (location && price && images.length > 0) {
       const newListing = {
         location,
+        description,
         price,
         images: images.map((image) => URL.createObjectURL(image)), // Convert to blob URLs
       };
@@ -19,6 +21,7 @@ const UserAddedHouses = () => {
 
       // Clear input fields and selected images
       setLocation('');
+      setDescription('');
       setPrice('');
       setImages([]);
     } else {
@@ -52,6 +55,9 @@ const UserAddedHouses = () => {
           value={location}
           onChange={(e) => setLocation(e.target.value.toUpperCase())}
         />
+        
+           <textarea type="text" placeholder='House Descrition' value={description} onChange={(e) => setDescription(e.target.value.toUpperCase())} />
+        
         <input
           type="text"
           placeholder="Price/month($)"
@@ -73,6 +79,7 @@ const UserAddedHouses = () => {
           {userListings.map((listing, index) => (
             <div className={`user-listing ${listing.zoomed ? 'zoomed' : ''}`} key={index}>
               <h3><u>Location</u>: {listing.location}</h3>
+              <p className="p"><u>Description</u>: {listing.description}</p>
               <p><u>Price</u>: ${listing.price}</p>
               <p><u>Images</u>: </p><br />
               <div className="image-gallery">
