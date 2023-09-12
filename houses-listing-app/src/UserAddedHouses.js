@@ -45,6 +45,10 @@ const UserAddedHouses = () => {
     setUserListings(updatedListings);
   };
 
+  const handleBuyClick = () => {
+    alert('Thank you for your confirmation!');
+  };
+
   return (
     <div className="user-added-houses">
       <h2><u>Add New Listing</u></h2>
@@ -97,6 +101,7 @@ const UserAddedHouses = () => {
                   />
                 ))}
               </div>
+              <button id='buy' onClick={handleBuyClick}>Confirm</button>
             </div>
           ))}
         </div>
