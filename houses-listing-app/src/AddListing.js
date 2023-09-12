@@ -4,7 +4,7 @@ const AddListing = () => {
   const [newListing, setNewListing] = useState({
     location: '',
     price: '',
-    // image: '',
+    image: '',
   });
 
   const handleChange = (e) => {
