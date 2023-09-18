@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
 import logo1 from './images/logo1.png';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Import Router and related components
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import HouseList from './HouseList';
 import Home from './Home';
-// import AddListing from './AddListing';
 import UserAddedHouses from './UserAddedHouses';
-// import House from './House';
+
 
 function App() {
   return (

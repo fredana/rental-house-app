@@ -6,7 +6,7 @@ const HouseList = () => {
   const [showList, setShowList] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:3002/houses')
+    fetch('http://localhost:3000/houses')
       .then((response) => response.json())
       .then((data) => setHouses(data));
   }, []);
