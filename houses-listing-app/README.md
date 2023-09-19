@@ -79,7 +79,7 @@ NAME:
 House/Apartment Listing App
 
 DESCRIPTION: 
-This app can be used to advertise/rent/buy a house or an apartment with information about the location, description, price, and pictures. Those pictures can be scrolled from left/right to go thru them.
+This app can be used to advertise/rent/buy a house or an apartment with information about the location, description, price, and pictures. Those pictures can be scrolled from left/right to go  through  them.
 
 INSTALLATION INSTRUCTION: 
 Global setup:
