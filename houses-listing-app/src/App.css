@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  /* background-image: url('./images/bg.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -29,12 +28,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   font-size: 40px;
   font-weight: bold;
   font-family: monospace;
   color: rgb(243, 243, 236);
-  /* margin-top: 0; */
 }
 
 @keyframes App-logo-spin {

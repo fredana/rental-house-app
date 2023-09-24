@@ -96,7 +96,7 @@ const UserAddedHouses = () => {
                   <img 
                     key={i} 
                     src={image} 
-                    alt={`User-added house ${index} - Image ${i + 1}`} 
+                    alt={`User-added house ${index} - Tof ${i + 1}`} 
                     onClick={() => toggleZoom(index)} // Toggle zoom on click
                   />
                 ))}
